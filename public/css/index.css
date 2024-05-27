@@ -1,0 +1,74 @@
+a.create {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    color: white;
+    font-size: auto;
+}
+
+a.create:hover {
+    color: rgb(45, 45, 200);
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(100, 100, 200);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+    font-size: auto;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: start;
+}
+
+input.search {
+    width: 200px;
+    padding: 5px;
+    border: solid rgb(45, 45, 200) 2px;
+    border-radius: 10px;
+}
+
+table {
+    width: 90%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+thead {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+tbody {
+    display: flex;
+    flex-direction: row;
+}
+
+tr.thead {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(100, 100, 200);
+}
+
+tr.tbody {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(150, 150, 200);
+}
