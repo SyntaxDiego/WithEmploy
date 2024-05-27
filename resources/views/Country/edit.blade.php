@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('css/edit.css') }}">
 @extends('Layout.app')
 @section('main')
     <h1>Edit of {{ $country->name }}</h1>
@@ -23,9 +24,9 @@
             <option value="EUROPE" {{ $country->continent == 'EUROPE' ? 'selected' : '' }}>Europe</option>
             <option value="OCEANIA" {{ $country->continent == 'OCEANIA' ? 'selected' : '' }}>Oceania</option>
         </select>
-        <button type="submit">update</button>
+        <button class="update" type="submit">update</button>
     </form>
 @endsection
 @section('footer')
-    <a href="{{ route('country.index') }}">Back</a>
+    <a class="back" href="{{ route('country.index') }}">Back</a>
 @endsection

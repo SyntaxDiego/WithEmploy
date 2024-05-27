@@ -19,7 +19,7 @@
                             onsubmit="return confirm('Are you sure you want to delete this country?')">
                             @csrf
                             @method('DELETE')
-                            <button type="submit">Delete</button>
+                            <button type="submit" class="delete">Delete</button>
                         </form>
                     </td>
                 </tr>
