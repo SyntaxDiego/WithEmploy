@@ -37,8 +37,8 @@ class CountryController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'code' => 'required|string|min:3|max:3',
-            'name' => 'required|string|min:4|max:50',
+            'code' => 'required|string|min:3|max:3|unique:countries',
+            'name' => 'required|string|min:4|max:50|unique:countries',
             'continent' => 'required'
         ]);
         $country = new Country();
