@@ -15,13 +15,13 @@ class CountrySeeder extends Seeder
      */
     public function run()
     {
-        // $countries = [
-        //     [
-        //         'code'=>'COL',
-        //         'name'=>'COLOMBIA',
-        //         'continent'=>'AMERICA',
-        //     ]
-        // ];
-        // Country::insert($countries);
+        $countries = [
+            [
+                'code'=>'COL',
+                'name'=>'COLOMBIA',
+                'continent'=>'AMERICA',
+            ]
+        ];
+        Country::insert($countries);
     }
 }
