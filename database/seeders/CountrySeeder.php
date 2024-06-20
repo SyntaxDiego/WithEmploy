@@ -20,7 +20,17 @@ class CountrySeeder extends Seeder
                 'code'=>'COL',
                 'name'=>'COLOMBIA',
                 'continent'=>'AMERICA',
-            ]
+            ],
+            [
+                'code'=>'ARG',
+                'name'=>'ARGENTINA',
+                'continent'=>'AMERICA',
+            ],
+            [
+                'code'=>'VEN',
+                'name'=>'VENEZUELA',
+                'continent'=>'AMERICA',
+            ],
         ];
         Country::insert($countries);
     }
